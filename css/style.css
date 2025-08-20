@@ -1,0 +1,43 @@
+body {
+  background-image: url("../img/Games.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace , sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color:aqua;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  gap: 20px;
+}
+
+.circle {
+  background-color: aqua;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+h1 {
+text-align:center;
+font-size: 80px;
+}
+
+#message {
+    font-size: 40px;
+    text-align: center;
+}
+
